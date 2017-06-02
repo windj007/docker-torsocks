@@ -2,7 +2,7 @@
 
 Runs tor client and wraps the CMD into torsocks.
 The goal is to easily get all the network connections proxied, and be able to do arbitrary number of such instances.
-*Disclaimer:* spawning a net container takes quite a time due to bootstrapping, 
+*Disclaimer:* spawning a new container takes quite a time due to bootstrapping, 
 so it's better to wrap batch job into your program.
 
 To get public IP of your program:
